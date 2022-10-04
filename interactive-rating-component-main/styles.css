@@ -72,7 +72,9 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-   margin-right: 20px;
+   margin-right: auto;
+   margin-left: auto;
+
     
 }
 
@@ -107,7 +109,7 @@ body {
     background-color: var(--color-medium-gray);
     opacity: 0;
     transition: opacity 0.2s;
-    margin: 10px;
+    margin: 1px;
 }
 
 .form__radio-button div {
@@ -118,7 +120,7 @@ body {
     font-size: 18px;
     color: var(--color-white);
     font-weight: 400;
-    z-index: 2;
+    z-index: 1;
 }
 
 .form__radio-button:hover {
@@ -127,7 +129,7 @@ body {
 }
 
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
-opacity: 1; 
+opacity: 0.1; 
 }
 
 .form__button{
